@@ -12,6 +12,7 @@ public struct Beans {
     }
 }
 
+extension Beans: Equatable {}
 extension Beans: Sendable {}
 
 extension Beans {

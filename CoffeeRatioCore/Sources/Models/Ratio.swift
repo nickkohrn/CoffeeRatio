@@ -9,6 +9,7 @@ public struct Ratio {
     }
 }
 
+extension Ratio: Equatable {}
 extension Ratio: Sendable {}
 
 extension Ratio {

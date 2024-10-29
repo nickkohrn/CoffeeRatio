@@ -31,7 +31,11 @@ extension Equation {
     }
 }
 
+extension Equation: Equatable {}
 extension Equation: Sendable {}
+
+extension Equation.Result: Equatable {}
+extension Equation.Result: Sendable {}
 
 extension Equation {
     public static let `default`: Self = {

@@ -16,6 +16,7 @@ public struct Water {
     }
 }
 
+extension Water: Equatable {}
 extension Water: Sendable {}
 
 extension Water {

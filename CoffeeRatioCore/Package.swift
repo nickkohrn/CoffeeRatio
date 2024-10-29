@@ -14,12 +14,19 @@ let package = Package(
         ),
         //******************************************************************************
         .library(
+            name: "MainFeature",
+            targets: ["MainFeature"]
+        ),
+        .library(
             name: "Models",
             targets: ["Models"]
         ),
     ],
     dependencies: [
-        
+        .package(
+            url: "https://github.com/pointfreeco/swift-composable-architecture.git",
+            .upToNextMajor(from: Version(1, 15, 2))
+        )
     ],
     targets: [
         .target(
@@ -30,6 +37,16 @@ let package = Package(
             dependencies: ["CoffeeRatioCore"]
         ),
         //******************************************************************************
+        .target(
+            name: "MainFeature",
+            dependencies: [
+                "Models",
+                .product(
+                    name: "ComposableArchitecture",
+                    package: "swift-composable-architecture"
+                )
+            ]
+        ),
         .target(
             name: "Models"
         ),
