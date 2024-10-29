@@ -27,6 +27,7 @@
 		F9E4FDDB2CD11C6000FDDE0A /* CoffeeRatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeRatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E4FDEB2CD11C6100FDDE0A /* CoffeeRatioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeRatioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E4FDF52CD11C6100FDDE0A /* CoffeeRatioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeRatioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FEE8142CD11D9E0080C382 /* CoffeeRatioCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoffeeRatioCore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		F9E4FDD22CD11C6000FDDE0A = {
 			isa = PBXGroup;
 			children = (
+				F9FEE8142CD11D9E0080C382 /* CoffeeRatioCore */,
 				F9E4FDDD2CD11C6000FDDE0A /* CoffeeRatio */,
 				F9E4FDEE2CD11C6100FDDE0A /* CoffeeRatioTests */,
 				F9E4FDF82CD11C6100FDDE0A /* CoffeeRatioUITests */,
